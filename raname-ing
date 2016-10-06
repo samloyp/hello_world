@@ -1,0 +1,7 @@
+# renaming files (bulk)
+
+rename -n 's/str_1/str_2/' *.ext
+
+str_1 = string to be replaced
+str_2 = string to be inserted
+ext = target file extension
