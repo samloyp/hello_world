@@ -1,5 +1,7 @@
+#save as youtube-dl.conf
+
 #video config
-#-f 'best[height<=720]' --no-mtime --youtube-skip-dash-manifest --restrict-filenames -r 200K --ignore-errors --no-warnings -c -o '%(playlist_index)s-%(title)s.%(ext)s'
+-f 'best[height<=720]' --no-mtime --youtube-skip-dash-manifest --restrict-filenames -r 200K --ignore-errors --no-warnings -c -o '%(playlist_index)s-%(title)s.%(ext)s'
 
 #audio config
-#-x -c --audio-format mp3 --no-mtime --restrict-filenames -r 200K --ignore-errors --no-warnings -o '%(playlist_index)s-%(title)s.%(ext)s'
+-x -c --audio-format mp3 --no-mtime --restrict-filenames -r 200K --ignore-errors --no-warnings -o '%(playlist_index)s-%(title)s.%(ext)s'
